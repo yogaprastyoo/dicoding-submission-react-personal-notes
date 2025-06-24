@@ -24,6 +24,7 @@ This application allows users to:
 
 The project follows a component-based architecture for better organization, reusability, and maintainability:
 
+```
 src/
 ├── components/
 │ ├── Fragments/
@@ -41,6 +42,7 @@ src/
 ├── utils/
 │ └── index.js # Utility functions for initial data and date formatting.
 └── index.jsx # Main entry point of the React application, responsible for rendering the App.
+```
 
 ## How to Run Locally
 
