@@ -26,21 +26,21 @@ The project follows a component-based architecture for better organization, reus
 
 src/
 ├── components/
-│   ├── Fragments/
-│   │   ├── NoteInput.jsx      # Component for adding new notes with character limit logic.
-│   │   ├── NoteItem.jsx       # Component for displaying individual note items with delete and archive actions.
-│   │   ├── NoteList.jsx       # Component for rendering lists of notes (active/archived).
-│   │   └── NoteSearch.jsx     # Component for searching notes by title.
-│   └── Layouts/
-│       ├── NoteBody.jsx       # Main body layout, handling note filtering and rendering lists.
-│       └── NoteHeader.jsx     # Header section with the app title and search bar.
+│ ├── Fragments/
+│ │ ├── NoteInput.jsx # Component for adding new notes with character limit logic.
+│ │ ├── NoteItem.jsx # Component for displaying individual note items with delete and archive actions.
+│ │ ├── NoteList.jsx # Component for rendering lists of notes (active/archived).
+│ │ └── NoteSearch.jsx # Component for searching notes by title.
+│ └── Layouts/
+│ ├── NoteBody.jsx # Main body layout, handling note filtering and rendering lists.
+│ └── NoteHeader.jsx # Header section with the app title and search bar.
 ├── pages/
-│   └── note.jsx               # Main application page, managing overall state and handlers for notes.
+│ └── note.jsx # Main application page, managing overall state and handlers for notes.
 ├── styles/
-│   └── style.css              # Global styling for the application, including responsive design rules.
+│ └── style.css # Global styling for the application, including responsive design rules.
 ├── utils/
-│   └── index.js               # Utility functions for initial data and date formatting.
-└── index.jsx                  # Main entry point of the React application, responsible for rendering the App.
+│ └── index.js # Utility functions for initial data and date formatting.
+└── index.jsx # Main entry point of the React application, responsible for rendering the App.
 
 ## How to Run Locally
 
@@ -48,7 +48,7 @@ To get a copy of this project up and running on your local machine for developme
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/yogaprastyoo/dicoding-submission-react-personal-notes.git](https://github.com/yogaprastyoo/dicoding-submission-react-personal-notes.git)
+    git clone https://github.com/yogaprastyoo/dicoding-submission-react-personal-notes.git
     ```
 2.  **Navigate to the project directory:**
     ```bash
@@ -71,3 +71,5 @@ To get a copy of this project up and running on your local machine for developme
 ## Acknowledgements
 
 This project was developed as a submission for the "Belajar Membuat Aplikasi Web dengan React" course, provided by [Dicoding Indonesia](https://www.dicoding.com/).
+
+
